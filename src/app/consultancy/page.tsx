@@ -47,7 +47,7 @@ export default function ConsultancyPage() {
             {/* Update the href below with your actual Oodio Vercel/GitHub deployment URL 
             */}
             <a 
-              href="https://your-oodio-deployment-url.vercel.app" 
+              href="https://oodio.vercel.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-acoustic-green hover:bg-[#22451d] text-white px-10 py-4 rounded-md font-medium transition-all shadow-[0_4px_14px_0_rgba(45,90,39,0.39)] hover:shadow-[0_6px_20px_rgba(45,90,39,0.23)] hover:-translate-y-1"
