@@ -1,11 +1,9 @@
 import React from 'react';
-import Navbar from '@/components/Navbar';
 import { ExternalLink, Activity, Cpu } from 'lucide-react';
 
 export default function ConsultancyPage() {
   return (
     <main className="min-h-screen bg-gray-50">
-      <Navbar />
       
       {/* Header */}
       <section className="bg-sound-black pt-32 pb-20 px-6 border-b border-white/10">
@@ -20,8 +18,8 @@ export default function ConsultancyPage() {
       </section>
 
       {/* Oodio Integration Section */}
-      <section className="px-6 relative -mt-10">
-        <div className="bg-white rounded-2xl border border-gray-100 shadow-xl overflow-hidden max-w-4xl mx-auto mb-20">
+      <section className="px-6 relative -mt-10 pb-20">
+        <div className="bg-white rounded-2xl border border-gray-100 shadow-xl overflow-hidden max-w-4xl mx-auto">
           
           <div className="bg-acoustic-slate p-8 text-white flex items-center justify-between">
             <div>
@@ -44,8 +42,7 @@ export default function ConsultancyPage() {
               For precise, AI-powered reverberation time analysis and environmental acoustic mapping, we route our clients through the dedicated Oodio measurement tool. 
             </p>
             
-            {/* Update the href below with your actual Oodio Vercel/GitHub deployment URL 
-            */}
+            {/* Cleaned up: Just your actual Vercel link! */}
             <a 
               href="https://oodio.vercel.app/" 
               target="_blank" 
@@ -64,11 +61,7 @@ export default function ConsultancyPage() {
         </div>
       </section>
 
-      <footer className="bg-black py-12 text-center border-t border-white/10">
-        <p className="text-gray-500 text-sm">
-          © {new Date().getFullYear()} Green Acoustics Lagos. Engineering Perfect Soundscapes.
-        </p>
-      </footer>
+      {/* The Footer was removed from here because it is now handled globally in layout.tsx */}
     </main>
   );
 }
